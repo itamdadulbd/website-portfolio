@@ -1,0 +1,8 @@
+body{}
+.manubar{}
+.manubar nav{}
+.manubar nav ul{}
+.manubar nav ul li{
+    display: inline-flex;
+}
+.manubar nav ul li a{}
