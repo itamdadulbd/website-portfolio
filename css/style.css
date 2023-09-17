@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+}
+.menubar{}
+.menubar nav{
+    margin-bottom: 10px;
+}
+
+.menubar ul{
+   
+}
+.menubar li{
+    display: inline;
+}
+.menubar a{
+    background-color: brown;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: -4px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightyellow,yellow);
+    border-image-slice: 1;
+
+}
+.menubar a:hover{
+    padding: 10px;
+    text-transform: capitalize;
+    background-color: antiquewhite;
+    background: -webkit-linear-gradient(180deg,lightsalmon,tomato);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.chide{
+    margin-left: 52px;
+}
+.top-banner{
+    background-image: url("../images/top-banner.png");
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 40%;
+    padding: 2%;
+    margin-left: 3%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+    margin-left: 28px;
+}
+.half-width h2{}
+.half-width h3{}
+.orange-highlight{
+    color: orange;
+}
+.half-width a{
+    text-decoration: none;
+    font-weight: 700;
+    background:-webkit-linear-gradient(180deg,lightsalmon,tomato);
+    color: aliceblue;
+    padding: 10px 20px;
+}
