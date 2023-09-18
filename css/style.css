@@ -1,9 +1,18 @@
 body{
     margin: 0px;
+    font-family: 'Russo One', sans-serif;
+}
+.fixed-menubar{
+    margin-left: 5%;
+    position: fixed;
+    margin-top: -72px;
+}
+.normal-menubar{
+    margin-top: 73px;
 }
 .menubar{}
 .menubar nav{
-    margin-bottom: 10px;
+    
 }
 
 .menubar ul{
@@ -13,16 +22,18 @@ body{
     display: inline;
 }
 .menubar a{
-    background-color: brown;
+    background: linear-gradient(to left,lightsalmon,tomato);
     color: white;
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px;
     margin-left: -4px;
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg,lightyellow,yellow);
+    border-left: 5px solid;
+    /* border-right: 3px solid; */
+    border-image: linear-gradient(180deg,lightblue,blue);
     border-image-slice: 1;
+    box-shadow: 10px 10px 19px gray;
 
 }
 .menubar a:hover{
@@ -36,7 +47,7 @@ body{
     transition: 0.5s;
 }
 .chide{
-    margin-left: 52px;
+    margin-left: 17px;
 }
 .top-banner{
     background-image: url("../images/top-banner.png");
@@ -46,7 +57,7 @@ body{
 .half-width{
     width: 40%;
     padding: 2%;
-    margin-left: 3%;
+    margin-left: 4%;
     float: left;
 }
 .half-width img{
@@ -64,4 +75,43 @@ body{
     background:-webkit-linear-gradient(180deg,lightsalmon,tomato);
     color: aliceblue;
     padding: 10px 20px;
+    border-radius: 5px;
+}
+.half-width a:hover{
+   color: darkgoldenrod;
+    background: -webkit-linear-gradient(180deg,lightcyan,cyan);
+    
+    transition: 0.5s;
+}
+.dream-area{
+    height: 500px;
+    background-image: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    height: 500px;
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 60%;
+    border-radius: 10px;
+    background: whitesmoke;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightblue,blue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
